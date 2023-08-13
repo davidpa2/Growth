@@ -1,0 +1,20 @@
+#back {
+    /* background: linear-gradient(90deg, #AADBC1, white); */
+    background-image: linear-gradient(to bottom, #DBBB01, black);
+    height: 100%;
+    width: 100%;
+}
+
+.loginDiv {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 20vh;
+}
+
+#login {
+    background-color: white;
+    border-radius: 100%;
+    width: 80vh;
+    height: 80vw;
+}
