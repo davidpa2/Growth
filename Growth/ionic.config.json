@@ -1,0 +1,7 @@
+{
+  "name": "Growth",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
