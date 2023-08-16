@@ -1,0 +1,35 @@
+#back {
+    // background-image: linear-gradient(to bottom, #8b01db, black);
+    background: linear-gradient(70deg, black, #8b01db);
+    height: 100%;
+    width: 100%;
+}
+
+.loginDiv {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 10vh;
+}
+
+#login {
+    position: absolute;
+    background-color: white;
+    border-radius: 100%;
+    width: 165%;
+    height: 80%;
+}
+
+ion-grid {
+    width: 50%;
+}
+
+.col-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    img {
+        width: 70px;
+        margin-bottom: 30%;
+    }
+}

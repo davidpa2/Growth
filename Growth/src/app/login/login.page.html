@@ -1,0 +1,35 @@
+<ion-content [fullscreen]="true">
+  <div id="back">
+    <div class="loginDiv">
+      <div id="login"></div>
+      
+      <ion-grid>
+        <ion-row>
+          <ion-col class="col-img">
+            <img src="../../assets/plant.png"/>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col>
+            <ion-list>
+              <ion-item>
+                <ion-input label="Usuario" labelPlacement="floating" placeholder="Usuario"></ion-input>
+              </ion-item>
+              <ion-item>
+                <ion-input label="Password" labelPlacement="floating" placeholder="Password"></ion-input>
+              </ion-item>
+            </ion-list>
+          </ion-col>
+        </ion-row>
+        
+        <ion-row>
+          <ion-col>
+            <ion-button (click)="login()" expand="block" class="ion-margin-top">Login</ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+    </div>
+  </div>
+</ion-content>

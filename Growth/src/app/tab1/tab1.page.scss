@@ -1,6 +1,6 @@
 #back {
     /* background: linear-gradient(90deg, #AADBC1, white); */
-    background-image: linear-gradient(to bottom, #DBBB01, black);
+    background-image: linear-gradient(to bottom, #8b01db, black);
     height: 100%;
     width: 100%;
 }
@@ -9,12 +9,14 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    padding-top: 20vh;
+    // padding-top: 80vh;
+    margin-top: 80px;
 }
 
 #login {
+    position: absolute;
     background-color: white;
     border-radius: 100%;
-    width: 80vh;
-    height: 80vw;
+    width: 115%;
+    height: 80%;
 }
